@@ -20,6 +20,7 @@ public class PlayerMovement : MonoBehaviour {
 		if (Input.GetButtonDown("Jump"))
 		{
 			jump = true;
+
 		}
 
 		if (Input.GetButtonDown("Crouch"))
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour {
 		} else if (Input.GetButtonUp("Crouch"))
 		{
 			crouch = false;
+
 		}
 
 	}
